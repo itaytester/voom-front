@@ -1,11 +1,5 @@
-import { useCallback, useEffect, useState } from "react";
 import ArticleItem from "./articleItem";
-import ArticleApi from "../api/articleApi";
-import useFetch from "./useFetch";
 import Article from "../types/article";
-import ArticleSearhBar from "./articleSearch";
-import { debounce } from "lodash";
-import ArticleQuery from "../types/articleQuery";
 
 interface IGalleryProps {
   articles: Article[] | null;

@@ -1,5 +1,3 @@
-import React from "react";
-import logo from "./logo.svg";
 import Articles from "./components/articles";
 import AdapterDateFns from "@mui/lab/AdapterDateFns";
 import LocalizationProvider from "@mui/lab/LocalizationProvider";

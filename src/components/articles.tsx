@@ -9,7 +9,7 @@ import ArticleQuery from "../types/articleQuery";
 import ArticleGallery from "./articleGallery";
 
 const Articles = () => {
-  const [data, isLoading, isError] = useFetch<Article>(ArticleApi.url);
+  const {data, isLoading, isError} = useFetch<Article>(ArticleApi.url);
   const [articles, setArticles] = useState<Article[] | null>(null);
 
   useEffect(() => {
